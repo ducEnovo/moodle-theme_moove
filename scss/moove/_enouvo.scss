@@ -1,0 +1,325 @@
+#usernavigation
+  > div.d-flex.align-items-stretch.usermenu-container
+  > div
+  > span
+  > a {
+  background-color: #b93c27;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#usernavigation
+  > div.d-flex.align-items-stretch.usermenu-container
+  > div
+  > span
+  > a:hover {
+  background-color: rgb(167 54 35);
+}
+
+.copyright {
+  display: none;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #b93c27;
+}
+
+.moremenu .nav-link.active:focus {
+  border-bottom-color: white;
+}
+
+.nav-link:focus {
+  box-shadow: none;
+}
+
+a:not([class]):focus {
+  box-shadow: none;
+}
+
+#feature
+  > div
+  > div
+  > div.col-lg-8.ps-xl-8
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div.col.ps-3
+  > h5,
+#feature
+  > div
+  > div
+  > div.col-lg-8.ps-xl-8
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div.col.ps-3
+  > h5,
+#feature
+  > div
+  > div
+  > div.col-lg-8.ps-xl-8
+  > div
+  > div:nth-child(3)
+  > div
+  > div
+  > div.col.ps-3
+  > h5,
+#feature
+  > div
+  > div
+  > div.col-lg-8.ps-xl-8
+  > div
+  > div:nth-child(4)
+  > div
+  > div
+  > div.col.ps-3
+  > h5 {
+  color: #b93c27;
+}
+
+#page-site-index.notloggedin
+  #numbers
+  .user-rating-box-area
+  .rate-box.bg-primary {
+  background-color: #d86553 !important;
+}
+
+#page-site-index.notloggedin #numbers .user-rating-box-area .rate-box {
+  box-shadow: 0 6px 0 rgb(234 166 155);
+}
+
+#page-site-index.notloggedin
+  #numbers
+  .user-rating-box-area
+  .rate-box.bg-cloudburst {
+  background-color: #7c1f10;
+}
+
+#page-site-index.notloggedin #numbers .user-rating-box-area .rate-box-2 {
+  box-shadow: 0 6px 0 rgb(168 100 89);
+}
+
+#page-footer .btn-footer-popover {
+  display: none;
+}
+
+#guestlogin > button {
+  display: none;
+}
+
+#logoimage {
+  padding: 10px 30px;
+}
+
+#region-main
+  > div
+  > div
+  > div
+  > div
+  > div.col-lg-6.col-md-12.right-column
+  > div
+  > div.login-identityproviders {
+  width: 100%;
+}
+
+a.dropdown-toggle:focus,
+.aabtn:focus,
+.login-identityproviders > a:focus,
+input[type="radio"]:focus {
+  box-shadow: 0 0 0 0rem rgb(255 255 255);
+}
+
+.login-identityproviders > a:hover {
+  background-color: #fbfbfb;
+}
+
+#moremenu-66b19cb08a519-navbar-nav > li:nth-child(1) > a {
+  display: none;
+}
+
+#feature {
+  display: none;
+}
+
+#numbers {
+  display: none;
+}
+
+#page-wrapper > nav > a > img {
+  padding: 6px;
+}
+
+#logoimage {
+  padding: 10px 60px;
+}
+
+#loginbtn {
+  background-color: #b93c27;
+  border: #b93c27;
+}
+
+#loginbtn:hover {
+  background-color: rgba(167, 54, 35, 1);
+}
+
+#page {
+  height: 100%;
+}
+
+#page.drawers {
+  padding: 0 15px;
+  height: 100%;
+}
+
+input[type="radio"] {
+  height: 14px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.path-admin .secondary-navigation .navigation .nav-tabs {
+  max-width: none !important;
+}
+
+#page-footer {
+  display: none;
+}
+
+.card-grid .card {
+  flex: 1;
+  margin: 1rem;
+}
+
+.login-form {
+  display: none;
+}
+
+.login-container .login-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+#page-login-index .login-container .loginform .left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-welcome-image {
+  display: flex;
+  justify-content: center;
+}
+
+.login-welcome-image img {
+  width: 200px;
+}
+
+.login-welcome-title {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 32px;
+  color: #373737;
+}
+
+.welcometext {
+  display: flex;
+  justify-content: center;
+  color: #cc2021;
+  font-weight: 700;
+  font-size: x-large;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  #page-login-index .loginform.hastwocolumns {
+    width: 65%;
+  }
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-Black.ttf]]") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-Bold.ttf]]") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-ExtraBold.ttf]]") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-ExtraLight.ttf]]") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-Italic.ttf]]") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-Light.ttf]]") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-Medium.ttf]]") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-Regular.ttf]]") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-SemiBold.ttf]]") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVNPoppins";
+  src: url("[[font:theme|SVN-Poppins-Thin.ttf]]") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+[role="treeitem"]:not([aria-expanded="true"]):focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.0rem rgba(204, 32, 33, 0.75);
+}

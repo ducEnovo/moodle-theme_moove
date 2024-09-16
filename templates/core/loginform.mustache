@@ -94,12 +94,11 @@
 }}
 <div class="loginform row {{#hastwocolumns}}hastwocolumns{{/hastwocolumns}}">
     <div class="{{#hastwocolumns}}col-lg-6 col-md-12 left-column{{/hastwocolumns}}{{^hastwocolumns}}col{{/hastwocolumns}}">
-        {{#logourl}}
-            <div id="loginlogo" class="login-logo">
-                <img id="logoimage" src="{{logourl}}" class="img-fluid" alt="{{sitename}}"/>
-                <h1 class="login-heading sr-only">{{#str}} loginto, core, {{sitename}} {{/str}}</h1>
-            </div>
-        {{/logourl}}
+        <div class="login-welcome-image">
+            <img src="{{config.wwwroot}}/theme/moove/pix/welcome-image.png" alt="Login Image" class="img-fluid">
+        </div>
+        <div class="welcometext">Welcome to Enouvo</div>
+        <div class="welcometext"> Learning Management System</div>
         {{^logourl}}
             <h1 class="login-heading mb-4">{{#str}} loginto, core, {{sitename}} {{/str}}</h1>
         {{/logourl}}

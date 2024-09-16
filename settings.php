@@ -115,6 +115,7 @@ if ($ADMIN->fulltree) {
 
     $fontsarr = [
         'Moodle' => 'Moodle Font',
+        'SVNPoppins' => 'SVN Poppins',
         'Roboto' => 'Roboto',
         'Poppins' => 'Poppins',
         'Montserrat' => 'Montserrat',
